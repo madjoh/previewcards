@@ -1,0 +1,126 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .cards article {
+  padding: 3rem 3.2rem;
+}
+
+.content .cards .sedan {
+  background-color: #e38826;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.content .cards .sedan a {
+  color: #e38826;
+}
+
+.content .cards .sedan a:hover {
+  color: white;
+}
+
+.content .cards .suv {
+  background-color: #006970;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+}
+
+.content .cards .suv a {
+  color: #006970;
+}
+
+.content .cards .suv a:hover {
+  color: white;
+}
+
+.content .cards .luxury {
+  background-color: #004241;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content .cards .luxury a {
+  color: #004241;
+}
+
+.content .cards .luxury a:hover {
+  color: white;
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  color: #f2f2f2;
+  font-size: 33px;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  padding: 0.8rem 1.9rem;
+  border-radius: 50px;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  border: 2px solid #f2f2f2;
+  margin-top: 4rem;
+}
+
+.btn:hover {
+  border: 2px solid #f2f2f2;
+  background-color: transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+/*# sourceMappingURL=style.css.map */

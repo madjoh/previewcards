@@ -1,0 +1,102 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    article {
+      padding: 3rem 3.2rem;
+    }
+
+    .sedan {
+      background-color: hsl(31, 77%, 52%);
+      flex: 0 0 22%;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+
+      a {
+        color: hsl(31, 77%, 52%);
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .suv {
+      background-color: hsl(184, 100%, 22%);
+      flex: 0 0 22%;
+
+      a {
+        color: hsl(184, 100%, 22%);
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .luxury {
+      background-color: hsl(179, 100%, 13%);
+      flex: 0 0 22%;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+
+      a {
+        color: hsl(179, 100%, 13%);
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+  font-size: 33px;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.8rem 1.9rem;
+  border-radius: 50px;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  border: 2px solid hsl(0, 0%, 95%);
+  margin-top: 4rem;
+
+  &:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    transition: 0.2s;
+  }
+}
